@@ -1,11 +1,142 @@
 body {
+	height: 100%;
+	width: 100%;
+	background-color: #CAE4DB;
 	padding: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
     color: #00B7FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
+
+
+/*#back-photo{
+	background: url('sunset.jpg');
+	opacity: 0.2;
+}*/
+
+.footer {
+	position: relative;
+	margin-top: 20px;
+	background-color: #DCAE1D;
+	height: 40px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: #DCAE1D;
+
+}
+
+.heading {
+	display: flex;
+}
+
+.links {
+	padding: 20px;
+}
+
+.title {
+	padding: 10px;
+}
+
+
+#intro-holder {
+	display: flex;
+	margin: 10px;
+}
+
+#photo {
+	border-radius: 50%;
+	border: 20px solid #00303F;
+	z-index: 1;
+}
+
+#about-me {
+	background-color: #7A9D96;
+	text-align: center;
+	height: 200px;
+	margin-left: -30px;
+	margin-top: 100px;
+	padding: 40px;
+}
+
+.home {
+	margin: 20px;
+}
+
+#intro {
+	font-size: 18px;
+	font-family: 'Lato';
+}
+
+.name {
+	font-family: "Pacifico", cursive;
+}
+
+.pr-image {
+	height: 400px;
+	width: 200px;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.web-image {
+	height: 300px;
+	width: 425px;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.hidden-arrow {
+	opacity: 0;
+}
+
+.project-image {
+	margin-left: 10px;
+	width: 40%;
+}
+
+.project {
+	background-color: #7A9D96;
+	padding: 30px;
+	display: flex;
+	margin-top: 30px;
+}
+
+.arrow {
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	border: none;
+	border-radius: 20%;
+	height: 40px;
+	width: 25px;
+}
+
+.project-title {
+	text-align: center;
+	color: white;
+
+}
+
+.project-description {
+	color: white;
+}
+
+.project-explanation {
+	padding: 20px;
+	background-color: #00303F;
+	width: 60%;
+	text-align: center
+}
+
+/* #7A9D96 */

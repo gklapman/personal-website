@@ -1,7 +1,7 @@
 {
-  "name": "skeleton",
+  "name": "personal_website",
   "version": "1.0.0",
-  "description": "base to build off of",
+  "description": "Gabi Klapman Personal Website",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",

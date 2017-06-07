@@ -3,11 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import Routes from './Routes';
-// import {ProfileMap} from './components/ProfileMap'
-// import ProfileContainer from './containers/ProfileContainer'
-// import SimpleMap from './components/ProfileMap'
-// import {MapContainer} from './containers/MapContainer'
-// import LocationContainer from './containers/LocationContainer'
+
 
 
 
