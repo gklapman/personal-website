@@ -9491,27 +9491,61 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Contact = function Contact() {
-	return _react2.default.createElement(
-		"div",
-		{ className: "contact text-center" },
-		_react2.default.createElement(
-			"span",
-			null,
-			_react2.default.createElement(
-				"p",
-				null,
-				"Contact"
-			)
-		)
-	);
-};
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Contact = function (_React$Component) {
+	_inherits(Contact, _React$Component);
+
+	function Contact(props) {
+		_classCallCheck(this, Contact);
+
+		var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+
+		_this.state = {
+			name: '',
+			email: '',
+			message: ''
+		};
+		_this.handleChange = _this.handleChange.bind(_this);
+		return _this;
+	}
+
+	_createClass(Contact, [{
+		key: 'handleChange',
+		value: function handleChange(event) {
+			var value = event.target.value;
+			var name = event.target.name;
+			console.log('name and value ', name, value);
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'contact' },
+				_react2.default.createElement(
+					'h3',
+					null,
+					'Please reach out to me at gabiklapman@gmail.com'
+				)
+			);
+		}
+	}]);
+
+	return Contact;
+}(_react2.default.Component);
 
 exports.default = Contact;
 
@@ -9537,12 +9571,134 @@ var Interests = function Interests() {
 		"div",
 		{ className: "interests text-center" },
 		_react2.default.createElement(
-			"span",
-			null,
+			"h2",
+			{ className: "page-header" },
+			"My Interests"
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "container" },
 			_react2.default.createElement(
-				"p",
-				null,
-				"Interests"
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "running container-hover" },
+					_react2.default.createElement(
+						"div",
+						null,
+						_react2.default.createElement("img", { src: "running1.png", className: "interest-photo" })
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"One of my favorite things is running on the lake front trail during the summer. I sometimes ",
+							_react2.default.createElement(
+								"strike",
+								null,
+								"attempt to"
+							),
+							" run races (no more than a 10K for me!)"
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "travel container-hover" },
+					_react2.default.createElement(
+						"div",
+						null,
+						_react2.default.createElement("img", { src: "travel1.png", className: "interest-photo" })
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"After studying abroad in Madrid, I definitely caught the travel bug! Post college, I spent 2 months backpacking in South East Asia and 3 months volunteering in South Africa."
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "scrapbooking container-hover" },
+					_react2.default.createElement("img", { src: "scrapbook1.png", className: "interest-photo" }),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"I've always loved doing little art projects and scrapbooking has been a hobby of mine since I can remember."
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "snowboarding container-hover" },
+					_react2.default.createElement("img", { src: "snowboard1.png", className: "interest-photo" }),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"I learned to ski/snowboard as a young child. I was quite the dare devil. That is... until I broke my arm. I'm back on the board with a bit more caution than before."
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "country container-hover" },
+					_react2.default.createElement("img", { src: "country2.png", className: "interest-photo" }),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"Going to college in the middle of cornfields made me fall in love with country music. Now, I love going to country concerts in Chicago."
+						)
+					)
+				)
+			),
+			_react2.default.createElement(
+				"div",
+				{ className: "col-md-4 interest" },
+				_react2.default.createElement(
+					"div",
+					{ className: "cubs container-hover" },
+					_react2.default.createElement("img", { src: "cubs1.png", className: "interest-photo" }),
+					_react2.default.createElement(
+						"div",
+						{ className: "overlay" },
+						_react2.default.createElement(
+							"p",
+							{ className: "overlay-text" },
+							"Cubs games were always on at my house growing up. After years of stealing my brothers Cubs gear, I finally got some of my own. Time to soak up baseball season and head to Wrigley for some games."
+						)
+					)
+				)
 			)
 		)
 	);
@@ -9572,13 +9728,21 @@ var WorkExperience = function WorkExperience() {
 		"div",
 		{ className: "work-experience text-center" },
 		_react2.default.createElement(
-			"span",
-			null,
+			"h2",
+			{ className: "page-header" },
+			"Work Experience"
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "job" },
+			_react2.default.createElement("img", { className: "work-logo", src: "conversantlogo.jpg" }),
 			_react2.default.createElement(
-				"p",
-				null,
-				"Work Experience"
-			)
+				"h3",
+				{ className: "company" },
+				"Conversant"
+			),
+			_react2.default.createElement("h4", { className: "position" }),
+			_react2.default.createElement("p", { className: "duties" })
 		)
 	);
 };
@@ -15650,23 +15814,44 @@ var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouter = __webpack_require__(76);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home() {
 	return _react2.default.createElement(
-		"div",
-		{ className: "home text-center" },
+		'div',
+		{ className: 'home text-center' },
 		_react2.default.createElement(
-			"div",
-			{ id: "intro-holder" },
-			_react2.default.createElement("img", { src: "gabiwebsite.jpeg", id: "photo" }),
+			'div',
+			{ id: 'intro-holder' },
+			_react2.default.createElement('img', { src: 'gabiwebsite.jpeg', id: 'photo' }),
 			_react2.default.createElement(
-				"div",
-				{ id: "about-me" },
+				'div',
+				{ id: 'about-me' },
 				_react2.default.createElement(
-					"p",
-					{ id: "intro" },
-					"Hi, I'm Gabi. I am a software developer excited to enter the workforce. I just finished at Fullstack Academy where I learned front end and back end programming. I built this website for you to get to know me and see some of my work. I would love to hear from you!"
+					'p',
+					{ id: 'intro' },
+					'Hi, I\'m Gabi. I am a software developer excited to enter the workforce. I just finished at Fullstack Academy where I learned front end and back end programming. I built this website for you to get to know me and see some of my work. I would love to hear from you!'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'link-holder' },
+					_react2.default.createElement(
+						'a',
+						{ className: 'profile-link', href: 'https://www.linkedin.com/in/gabrielle-klapman/' },
+						'LinkedIn'
+					),
+					_react2.default.createElement(
+						'a',
+						{ className: 'profile-link', href: 'https://github.com/gklapman' },
+						'Github'
+					),
+					_react2.default.createElement(
+						'a',
+						{ className: 'profile-link', href: 'GabrielleKlapmanResume.pdf' },
+						'Resume'
+					)
 				)
 			)
 		)
