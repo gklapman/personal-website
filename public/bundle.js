@@ -9309,7 +9309,8 @@ var CodingProjects = function (_React$Component) {
 		_this.state = {
 			prImage: 0,
 			trvlImage: 0,
-			memeImage: 0
+			memeImage: 0,
+			techTalkImage: 0
 
 		};
 
@@ -9339,6 +9340,7 @@ var CodingProjects = function (_React$Component) {
 			var prImages = ["pr1.png", "pr2.png", "pr3.png", "pr4.png"];
 			var trvlImages = ["tp1.png", "tp2.png", "tp3.png"];
 			var memeImages = ["mru1.png", "mru2.png"];
+			var techTalkImages = ["tt1.png", "tt2.png", "tt3.png"];
 
 			return _react2.default.createElement(
 				"div",
@@ -9423,7 +9425,7 @@ var CodingProjects = function (_React$Component) {
 							),
 							_react2.default.createElement(
 								"span",
-								null,
+								{ className: "team-members" },
 								"Team Members: Charles Long and Alyssa Ramsey"
 							)
 						)
@@ -9465,7 +9467,7 @@ var CodingProjects = function (_React$Component) {
 							_react2.default.createElement(
 								"p",
 								{ className: "project-details" },
-								"\u2022 Users can create an account, upload profile pictures, search for other users, and add other users as friends ('trvl buddies')",
+								"\u2022 Users can create an account, upload profile pictures, search for other users, and add other users as friends ('trvl buddies').",
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
 								"\u2022 Users have the ability to pin their travel locations on a map view. Each location has it's own page where users can upload photos and add reviews. ",
@@ -9528,7 +9530,7 @@ var CodingProjects = function (_React$Component) {
 						_react2.default.createElement(
 							"p",
 							{ className: "project-description" },
-							"An e-commerce platform allowing users to shop for and purchase Memes as a guest or registered user"
+							"An e-commerce platform allowing users to shop for and purchase memes as a guest or registered user"
 						),
 						_react2.default.createElement(
 							"div",
@@ -9545,7 +9547,7 @@ var CodingProjects = function (_React$Component) {
 							_react2.default.createElement(
 								"p",
 								{ className: "project-details" },
-								"\u2022 Users can view all available memes, filter by category, or search for speific memes",
+								"\u2022 Users can view all available memes, filter by category, or search for specific memes.",
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
 								"\u2022 Users can create an account or shop as a guest. If a user shops as a guest, they have the ability to create an account later and the items in their cart will remain. ",
@@ -9555,10 +9557,68 @@ var CodingProjects = function (_React$Component) {
 							),
 							_react2.default.createElement(
 								"span",
-								null,
+								{ className: "team-members" },
 								"Team Members: James Byrd and Nick Lee"
 							)
 						)
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "project" },
+					_react2.default.createElement(
+						"div",
+						{ className: "project-explanation" },
+						_react2.default.createElement(
+							"h4",
+							{ className: "project-title" },
+							"Tech Talk"
+						),
+						_react2.default.createElement(
+							"p",
+							{ className: "project-description" },
+							"An intro to React Native highlighting key differences between React and React Native"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-links" },
+							_react2.default.createElement(
+								"a",
+								{ href: "https://www.youtube.com/watch?v=Q6ZgLcGH2mA", className: "project-link" },
+								"Presentation Video"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-more" },
+							_react2.default.createElement(
+								"p",
+								{ className: "project-details" },
+								"\u2022 This Tech Talk dives into differences between React and React Native including DOM Elements, Styling, Touch Events, and Dev Tools. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 The talk also goes into more detail on the Navigator component."
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "project-image" },
+						this.state.techTalkImage > 0 ? _react2.default.createElement(
+							"button",
+							{ className: "arrow", onClick: this.leftArrow, value: "techTalkImage" },
+							"\u276E"
+						) : _react2.default.createElement(
+							"button",
+							{ className: "hidden-arrow" },
+							"\u276E"
+						),
+						_react2.default.createElement("img", { src: techTalkImages[this.state.techTalkImage], className: "web-image" }),
+						this.state.techTalkImage < techTalkImages.length - 1 ? _react2.default.createElement(
+							"button",
+							{ className: "arrow", onClick: this.rightArrow, value: "techTalkImage" },
+							"\u276F"
+						) : null
 					)
 				)
 			);

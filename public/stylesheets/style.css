@@ -139,6 +139,7 @@ a {
 
 .project-description {
 	color: white;
+	margin-bottom: 25px;
 }
 
 .project-explanation {
@@ -283,4 +284,10 @@ a {
 
 a {
 	color: black;
+}
+
+.team-members {
+	color: white;
+	font-size: 10px;
+	margin: 10px;
 }

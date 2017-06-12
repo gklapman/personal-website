@@ -7,6 +7,7 @@ class CodingProjects extends React.Component {
 			prImage: 0,
 			trvlImage: 0,
 			memeImage: 0,
+			techTalkImage: 0,
 
 		}
 
@@ -35,6 +36,7 @@ class CodingProjects extends React.Component {
 		const prImages = ["pr1.png", "pr2.png", "pr3.png", "pr4.png",]
 		const trvlImages = ["tp1.png", "tp2.png", "tp3.png"]
 		const memeImages = ["mru1.png", "mru2.png"]
+		const techTalkImages = ["tt1.png", "tt2.png", "tt3.png"]
 
 		return (
 			<div className="coding-projects">
@@ -60,7 +62,7 @@ class CodingProjects extends React.Component {
 							• Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time, providing them with motivational alerts when they are in close proximity. <br/><br/>
 							• Enables users to view metrics of their run, such as their speed and heart rate (if they are connected to fitbit). Also allows them to replay the run at various speeds. <br/><br/>
 							</p>
-							<span>Team Members: Charles Long and Alyssa Ramsey</span>
+							<span className="team-members">Team Members: Charles Long and Alyssa Ramsey</span>
 						</div>
 
 					</div>
@@ -75,7 +77,7 @@ class CodingProjects extends React.Component {
 						</div>
 						<div className="project-more">
 							<p className="project-details">
-							• Users can create an account, upload profile pictures, search for other users, and add other users as friends ('trvl buddies')<br/><br/>
+							• Users can create an account, upload profile pictures, search for other users, and add other users as friends ('trvl buddies').<br/><br/>
 							• Users have the ability to pin their travel locations on a map view. Each location has it's own page where users can upload photos and add reviews. <br/><br/>
 							• Users receive notifications when another user has added them as a 'trvl buddy'. 
 							</p>
@@ -96,20 +98,41 @@ class CodingProjects extends React.Component {
 					</div>
 					<div className="project-explanation">
 						<h4 className="project-title">MemesRUs</h4>
-						<p className="project-description">An e-commerce platform allowing users to shop for and purchase Memes as a guest or registered user</p>
+						<p className="project-description">An e-commerce platform allowing users to shop for and purchase memes as a guest or registered user</p>
 
 						<div className="project-links">
 							<a href="https://github.com/gklapman/Grace-Shopper" className="project-link">GitHub</a>
 						</div>
 						<div className="project-more">
 							<p className="project-details">
-							• Users can view all available memes, filter by category, or search for speific memes<br/><br/>
+							• Users can view all available memes, filter by category, or search for specific memes.<br/><br/>
 							• Users can create an account or shop as a guest. If a user shops as a guest, they have the ability to create an account later and the items in their cart will remain. <br/><br/>
 							• Previous orders can be viewed by account holding users. 
 							</p>
-							<span>Team Members: James Byrd and Nick Lee</span>
+							<span className="team-members">Team Members: James Byrd and Nick Lee</span>
 						</div>
 					</div>
+				</div>
+				<div className="project">
+					<div className="project-explanation">
+						<h4 className="project-title">Tech Talk</h4>
+						<p className="project-description">An intro to React Native highlighting key differences between React and React Native</p>
+						<div className="project-links">
+							<a href="https://www.youtube.com/watch?v=Q6ZgLcGH2mA" className="project-link">Presentation Video</a>
+						</div>
+						<div className="project-more">
+							<p className="project-details">
+							• This Tech Talk dives into differences between React and React Native including DOM Elements, Styling, Touch Events, and Dev Tools. <br/><br/>
+							• The talk also goes into more detail on the Navigator component.
+							</p>
+						</div>
+					</div>
+					<div className="project-image">
+						{this.state.techTalkImage > 0 ? <button className="arrow" onClick={this.leftArrow} value="techTalkImage">&#10094;</button> : <button className="hidden-arrow">&#10094;</button>}
+						<img src={techTalkImages[this.state.techTalkImage]} className="web-image"/>
+						{this.state.techTalkImage < techTalkImages.length -1 ? <button className="arrow" onClick={this.rightArrow} value="techTalkImage">&#10095;</button> : null}
+					</div>
+				
 				</div>
 			</div>
 			)

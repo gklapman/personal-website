@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha *.spec.js -w",
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "deploy-heroku": "bin/deploy-heroku.sh"
   },
   "keywords": [],
   "author": "Gabi Klapman",
