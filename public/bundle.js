@@ -9414,12 +9414,17 @@ var CodingProjects = function (_React$Component) {
 								"\u2022 Users can have a route automatically generated for then. By choosing a start, end, and distance, two custom algorithms will generate a route minimizing street crossings for a better running experience. ",
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
-								"\u2022 Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time providing them with motivational alerts when they are in close proximity. ",
+								"\u2022 Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time, providing them with motivational alerts when they are in close proximity. ",
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
-								"\u2022 Enables users to view metrics of their run such as their speed and heart rate (if they are connected to fitbit) at any specific point of the run. Also allows them to replay the run at various speeds. ",
+								"\u2022 Enables users to view metrics of their run, such as their speed and heart rate (if they are connected to fitbit). Also allows them to replay the run at various speeds. ",
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null)
+							),
+							_react2.default.createElement(
+								"span",
+								null,
+								"Team Members: Charles Long and Alyssa Ramsey"
 							)
 						)
 					)
@@ -9547,6 +9552,11 @@ var CodingProjects = function (_React$Component) {
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
 								"\u2022 Previous orders can be viewed by account holding users."
+							),
+							_react2.default.createElement(
+								"span",
+								null,
+								"Team Members: James Byrd and Nick Lee"
 							)
 						)
 					)

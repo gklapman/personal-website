@@ -57,9 +57,10 @@ class CodingProjects extends React.Component {
 							<p className="project-details">
 							• Allows users to make a new route to submit to the database for other users to run. The app, running in the foreground or background, will track a users location as well as other metrics. <br/><br/>
 							• Users can have a route automatically generated for then. By choosing a start, end, and distance, two custom algorithms will generate a route minimizing street crossings for a better running experience. <br/><br/>
-							• Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time providing them with motivational alerts when they are in close proximity. <br/><br/>
-							• Enables users to view metrics of their run such as their speed and heart rate (if they are connected to fitbit) at any specific point of the run. Also allows them to replay the run at various speeds. <br/><br/>
+							• Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time, providing them with motivational alerts when they are in close proximity. <br/><br/>
+							• Enables users to view metrics of their run, such as their speed and heart rate (if they are connected to fitbit). Also allows them to replay the run at various speeds. <br/><br/>
 							</p>
+							<span>Team Members: Charles Long and Alyssa Ramsey</span>
 						</div>
 
 					</div>
@@ -106,6 +107,7 @@ class CodingProjects extends React.Component {
 							• Users can create an account or shop as a guest. If a user shops as a guest, they have the ability to create an account later and the items in their cart will remain. <br/><br/>
 							• Previous orders can be viewed by account holding users. 
 							</p>
+							<span>Team Members: James Byrd and Nick Lee</span>
 						</div>
 					</div>
 				</div>
