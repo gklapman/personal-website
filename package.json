@@ -4,7 +4,7 @@
   "description": "Gabi Klapman Personal Website",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "mocha *.spec.js -w",
     "build": "webpack -w",
     "deploy-heroku": "bin/deploy-heroku.sh"
