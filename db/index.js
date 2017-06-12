@@ -15,7 +15,10 @@ var Example = require('./models/example')
 // })
 
 
-
+db.sync()
+.then(()=> {
+	console.log('db synced')
+})
 
 module.exports = {
     db,
