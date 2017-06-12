@@ -9344,7 +9344,7 @@ var CodingProjects = function (_React$Component) {
 				"div",
 				{ className: "coding-projects" },
 				_react2.default.createElement(
-					"h2",
+					"h1",
 					{ className: "page-header" },
 					"Coding Projects"
 				),
@@ -9374,18 +9374,53 @@ var CodingProjects = function (_React$Component) {
 						"div",
 						{ className: "project-explanation" },
 						_react2.default.createElement(
-							"h4",
+							"h3",
 							{ className: "project-title" },
 							"Phantom Racer"
 						),
 						_react2.default.createElement(
 							"p",
 							{ className: "project-description" },
-							"This is an explanation of Phantom Racer ",
-							_react2.default.createElement("br", null),
-							" Here's the video to watch the presentation ",
-							_react2.default.createElement("br", null),
-							" github: example.git.com"
+							"A React Native fitness application that enables users to create routes and race against other users\u2019 \"phantom\" past routes"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-links" },
+							_react2.default.createElement(
+								"a",
+								{ href: "https://github.com/gklapman/RunningAppFrontEnd", className: "project-link" },
+								"GitHub (Front End)"
+							),
+							_react2.default.createElement(
+								"a",
+								{ href: "https://github.com/RunsWithBackpack/RunningAppBackEnd", className: "project-link" },
+								"GitHub (Back End)"
+							),
+							_react2.default.createElement(
+								"a",
+								{ href: "https://www.youtube.com/watch?v=z9-j5N0Bfwk&feature=youtu.be", className: "project-link" },
+								"Presentation Video"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-more" },
+							_react2.default.createElement(
+								"p",
+								{ className: "project-details" },
+								"\u2022 Allows users to make a new route to submit to the database for other users to run. The app, running in the foreground or background, will track a users location as well as other metrics. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Users can have a route automatically generated for then. By choosing a start, end, and distance, two custom algorithms will generate a route minimizing street crossings for a better running experience. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Users can race against other users past routes. To ensure they are following the correct route, there are checkpoints which are geofenced to compare to a stream of the current runner's data location points. Runners can also see a simultaneous representation of the phantom racer's location at that time providing them with motivational alerts when they are in close proximity. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Enables users to view metrics of their run such as their speed and heart rate (if they are connected to fitbit) at any specific point of the run. Also allows them to replay the run at various speeds. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null)
+							)
 						)
 					)
 				),
@@ -9403,11 +9438,36 @@ var CodingProjects = function (_React$Component) {
 						_react2.default.createElement(
 							"p",
 							{ className: "project-description" },
-							"This is an explanation of TrvlPage ",
-							_react2.default.createElement("br", null),
-							" Here's the video to watch the presentation ",
-							_react2.default.createElement("br", null),
-							" github: example.git.com"
+							"A social media web-app for recording a user\u2019s travel locations, experiences, and reviews "
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-links" },
+							_react2.default.createElement(
+								"a",
+								{ href: "https://github.com/gklapman/TravelApp", className: "project-link" },
+								"GitHub (Front End)"
+							),
+							_react2.default.createElement(
+								"a",
+								{ href: "http://www.youtube.com/watch/RfPrqTlj6U8", className: "project-link" },
+								"Presentation Video"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-more" },
+							_react2.default.createElement(
+								"p",
+								{ className: "project-details" },
+								"\u2022 Users can create an account, upload profile pictures, search for other users, and add other users as friends ('trvl buddies')",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Users have the ability to pin their travel locations on a map view. Each location has it's own page where users can upload photos and add reviews. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Users receive notifications when another user has added them as a 'trvl buddy'."
+							)
 						)
 					),
 					_react2.default.createElement(
@@ -9463,11 +9523,31 @@ var CodingProjects = function (_React$Component) {
 						_react2.default.createElement(
 							"p",
 							{ className: "project-description" },
-							"This is an explanation of MemesRUs ",
-							_react2.default.createElement("br", null),
-							" Here's the video to watch the presentation ",
-							_react2.default.createElement("br", null),
-							" github: example.git.com"
+							"An e-commerce platform allowing users to shop for and purchase Memes as a guest or registered user"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-links" },
+							_react2.default.createElement(
+								"a",
+								{ href: "https://github.com/gklapman/Grace-Shopper", className: "project-link" },
+								"GitHub"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "project-more" },
+							_react2.default.createElement(
+								"p",
+								{ className: "project-details" },
+								"\u2022 Users can view all available memes, filter by category, or search for speific memes",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Users can create an account or shop as a guest. If a user shops as a guest, they have the ability to create an account later and the items in their cart will remain. ",
+								_react2.default.createElement("br", null),
+								_react2.default.createElement("br", null),
+								"\u2022 Previous orders can be viewed by account holding users."
+							)
 						)
 					)
 				)
@@ -9571,7 +9651,7 @@ var Interests = function Interests() {
 		"div",
 		{ className: "interests text-center" },
 		_react2.default.createElement(
-			"h2",
+			"h1",
 			{ className: "page-header" },
 			"My Interests"
 		),
@@ -9651,15 +9731,15 @@ var Interests = function Interests() {
 				{ className: "col-md-4 interest" },
 				_react2.default.createElement(
 					"div",
-					{ className: "snowboarding container-hover" },
-					_react2.default.createElement("img", { src: "snowboard1.png", className: "interest-photo" }),
+					{ className: "games container-hover" },
+					_react2.default.createElement("img", { src: "games1.png", className: "interest-photo" }),
 					_react2.default.createElement(
 						"div",
 						{ className: "overlay" },
 						_react2.default.createElement(
 							"p",
 							{ className: "overlay-text" },
-							"I learned to ski/snowboard as a young child. I was quite the dare devil. That is... until I broke my arm. I'm back on the board with a bit more caution than before."
+							"Name the game and I'm in! Just don't ask me to play poker, because you will regret it."
 						)
 					)
 				)
@@ -9728,21 +9808,227 @@ var WorkExperience = function WorkExperience() {
 		"div",
 		{ className: "work-experience text-center" },
 		_react2.default.createElement(
-			"h2",
+			"h1",
 			{ className: "page-header" },
 			"Work Experience"
 		),
 		_react2.default.createElement(
 			"div",
 			{ className: "job" },
-			_react2.default.createElement("img", { className: "work-logo", src: "conversantlogo.jpg" }),
+			_react2.default.createElement("img", { className: "work-logo col-md-4", src: "conversantlogo.gif" }),
 			_react2.default.createElement(
-				"h3",
-				{ className: "company" },
-				"Conversant"
-			),
-			_react2.default.createElement("h4", { className: "position" }),
-			_react2.default.createElement("p", { className: "duties" })
+				"div",
+				{ className: "job-description col-md-8" },
+				_react2.default.createElement(
+					"div",
+					{ className: "position-header" },
+					_react2.default.createElement(
+						"h3",
+						{ className: "company" },
+						_react2.default.createElement(
+							"b",
+							null,
+							"Conversant"
+						)
+					),
+					_react2.default.createElement(
+						"h4",
+						{ className: "position" },
+						"Account Manager"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "dates" },
+					_react2.default.createElement(
+						"em",
+						null,
+						"July 2016 - January 2017"
+					)
+				),
+				_react2.default.createElement(
+					"p",
+					{ className: "duties" },
+					"Managed 15+ digital campaigns, totaling over .5 MM in revenue ",
+					_react2.default.createElement("br", null),
+					_react2.default.createElement("br", null),
+					_react2.default.createElement(
+						"b",
+						null,
+						"Client Strategy & Account Growth:"
+					),
+					" ",
+					_react2.default.createElement("br", null),
+					"\u2022 Provide strategic direction, support and insights to fuel account growth against client objectives and present new opportunities to clients ",
+					_react2.default.createElement("br", null),
+					"\u2022 Act as the point-of contact for assigned clients, maintaining relationships and favorable contacts, and continuously meeting client expectations ",
+					_react2.default.createElement("br", null),
+					_react2.default.createElement("br", null),
+					_react2.default.createElement(
+						"b",
+						null,
+						"Reporting & Analytics:"
+					),
+					" ",
+					_react2.default.createElement("br", null),
+					"\u2022 Monitor and manage program performance/KPIs to identify account risks and develop mitigation strategies ",
+					_react2.default.createElement("br", null),
+					_react2.default.createElement("br", null),
+					_react2.default.createElement(
+						"b",
+						null,
+						"Execution, Process, & Project Management:"
+					),
+					" ",
+					_react2.default.createElement("br", null),
+					"\u2022 Manage campaign launches across cross-functional teams to ensure effective, timely execution ",
+					_react2.default.createElement("br", null)
+				)
+			)
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "job" },
+			_react2.default.createElement("img", { className: "work-logo col-md-4", src: "conversantlogo.gif" }),
+			_react2.default.createElement(
+				"div",
+				{ className: "job-description col-md-8" },
+				_react2.default.createElement(
+					"div",
+					{ className: "position-header" },
+					_react2.default.createElement(
+						"h3",
+						{ className: "company" },
+						_react2.default.createElement(
+							"b",
+							null,
+							"Conversant"
+						)
+					),
+					_react2.default.createElement(
+						"h4",
+						{ className: "position" },
+						"Sales Coordinator"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "dates" },
+					_react2.default.createElement(
+						"em",
+						null,
+						"December 2015 - July 2016"
+					)
+				),
+				_react2.default.createElement(
+					"p",
+					{ className: "duties" },
+					"Supported Performance Marketing, Media Solutions (Mobile/Desktop), Digital Shopper Marketing, and SET (video) team in the Central region",
+					_react2.default.createElement("br", null),
+					"\u2022 Assisted Sales team of 10+ by owning Salesforce responsibilities: creating & processing Insertion Orders, managing internal communications between Media Operations, Credit teams & Legal teams to obtain all approvals in a timely fashion; working with Salesforce administrators to test & implement new solutions",
+					_react2.default.createElement("br", null),
+					"\u2022 Worked with Account Managers to ensure a successful campaign launch",
+					_react2.default.createElement("br", null),
+					"\u2022 Collaborated with Client Strategists/Account Managers to analyze post-Campaign Insight Reports & optimization strategies, with respect to client\u2019s KPIs",
+					_react2.default.createElement("br", null)
+				)
+			)
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "job" },
+			_react2.default.createElement("img", { className: "work-logo col-md-4", src: "africanimpactlogo.jpg" }),
+			_react2.default.createElement(
+				"div",
+				{ className: "job-description col-md-8" },
+				_react2.default.createElement(
+					"div",
+					{ className: "position-header" },
+					_react2.default.createElement(
+						"h3",
+						{ className: "company" },
+						_react2.default.createElement(
+							"b",
+							null,
+							"African Impact"
+						)
+					),
+					_react2.default.createElement(
+						"h4",
+						{ className: "position" },
+						"Teaching and Sports Development Volunteer"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "dates" },
+					_react2.default.createElement(
+						"em",
+						null,
+						"August 2015 - October 2015"
+					)
+				),
+				_react2.default.createElement(
+					"p",
+					{ className: "duties" },
+					"\u2022Spent 250+ hours teaching, coaching, and supporting children ages 1-14 in underdeveloped schools in Cape Town townships ",
+					_react2.default.createElement("br", null),
+					"\u2022Led activities for 30-40 preschool students, teaching them basic skills and knowledge needed for primary school ",
+					_react2.default.createElement("br", null),
+					"\u2022Coached over 50 gym classes for students lacking any prior physical education in school ",
+					_react2.default.createElement("br", null),
+					"\u2022Planned and executed activities for 100+ children at the afterschool program, GAPA (Grandmothers Against Poverty and \u2028AIDS) ",
+					_react2.default.createElement("br", null)
+				)
+			)
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "job" },
+			_react2.default.createElement("img", { className: "work-logo col-md-4", src: "redfroglogo.jpg" }),
+			_react2.default.createElement(
+				"div",
+				{ className: "job-description col-md-8" },
+				_react2.default.createElement(
+					"div",
+					{ className: "position-header" },
+					_react2.default.createElement(
+						"h3",
+						{ className: "company" },
+						_react2.default.createElement(
+							"b",
+							null,
+							"Red Frog Events"
+						)
+					),
+					_react2.default.createElement(
+						"h4",
+						{ className: "position" },
+						"Event Coordinator"
+					)
+				),
+				_react2.default.createElement(
+					"div",
+					{ className: "dates" },
+					_react2.default.createElement(
+						"em",
+						null,
+						"May 2014 - August 2014"
+					)
+				),
+				_react2.default.createElement(
+					"p",
+					{ className: "duties" },
+					"\u2022 Traveled to three locations to execute the world\u2019s largest running series, Warrior Dash, with over 2 million participants in the last 5 years",
+					_react2.default.createElement("br", null),
+					"\u2022 Managed several hundred volunteers while constantly providing strong customer service to over 25,000 participants and spectators at the Warrior Dash events and Red Frog Event\u2019s new brand, Bacon Chase",
+					_react2.default.createElement("br", null),
+					"\u2022 Negotiated and communicated with over 30 vendors in 14 product industries to meet pricing goals in addition to managing logistics prior to and after the event - ensuring a good relationship for future endeavors",
+					_react2.default.createElement("br", null),
+					"\u2022 Organized the first American Beer Classic event in Washington D.C, which drew a crowd of over 3,000 people",
+					_react2.default.createElement("br", null)
+				)
+			)
 		)
 	);
 };
@@ -14903,8 +15189,7 @@ var Routes = function Routes() {
 			_react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'codingprojects', component: _CodingProjects2.default }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'workexperience', component: _WorkExperience2.default }),
-			_react2.default.createElement(_reactRouter.Route, { path: 'interests', component: _Interests2.default }),
-			_react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _Contact2.default })
+			_react2.default.createElement(_reactRouter.Route, { path: 'interests', component: _Interests2.default })
 		)
 	);
 };
@@ -15832,7 +16117,20 @@ var Home = function Home() {
 				_react2.default.createElement(
 					'p',
 					{ id: 'intro' },
-					'Hi, I\'m Gabi. I am a software developer excited to enter the workforce. I just finished at Fullstack Academy where I learned front end and back end programming. I built this website for you to get to know me and see some of my work. I would love to hear from you!'
+					'Hi, I\'m Gabi. I am a software developer excited to enter the workforce. I just finished at Fullstack Academy where I learned front end and back end programming. I built this website for you to get to know me and see some of my work.'
+				),
+				_react2.default.createElement('div', { id: 'technologies' }),
+				_react2.default.createElement(
+					'h5',
+					null,
+					'Technologies'
+				),
+				_react2.default.createElement(
+					'p',
+					null,
+					'Proficient: Javascript, HTML, CSS, React, Express, Sequelize, Node.js, Redux, Postgres ',
+					_react2.default.createElement('br', null),
+					'Knowledgeable: React Native, JQuery, Bootstrap, Amazon Web Services S3, Google-Map-React, Git, Passport.js, Socket.io'
 				),
 				_react2.default.createElement(
 					'div',
@@ -15845,13 +16143,18 @@ var Home = function Home() {
 					_react2.default.createElement(
 						'a',
 						{ className: 'profile-link', href: 'https://github.com/gklapman' },
-						'Github'
+						'GitHub'
 					),
 					_react2.default.createElement(
 						'a',
 						{ className: 'profile-link', href: 'GabrielleKlapmanResume.pdf' },
 						'Resume'
 					)
+				),
+				_react2.default.createElement(
+					'h5',
+					{ className: 'contact' },
+					'Contact Info: gabiklapman@gmail.com'
 				)
 			)
 		)
@@ -15953,20 +16256,6 @@ var NavBar = function NavBar() {
 						'span',
 						{ className: 'text' },
 						'Interests'
-					)
-				)
-			),
-			_react2.default.createElement(
-				'li',
-				null,
-				_react2.default.createElement(
-					_reactRouter.Link,
-					{ to: '/contact' },
-					' ',
-					_react2.default.createElement(
-						'span',
-						{ className: 'text' },
-						'Contact'
 					)
 				)
 			)

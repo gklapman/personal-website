@@ -2,7 +2,7 @@ import React from 'react';
 
 const Interests = () => (
 	<div className="interests text-center">
-		<h2 className="page-header">My Interests</h2>
+		<h1 className="page-header">My Interests</h1>
 		<div className="container">
 			<div className="col-md-4 interest">
 				<div className="running container-hover">
@@ -33,10 +33,10 @@ const Interests = () => (
 				</div>
 			</div>
 			<div className="col-md-4 interest">
-				<div className="snowboarding container-hover">
-					<img src="snowboard1.png" className="interest-photo"/>
+				<div className="games container-hover">
+					<img src="games1.png" className="interest-photo"/>
 					<div className="overlay">
-						<p className="overlay-text">I learned to ski/snowboard as a young child. I was quite the dare devil. That is... until I broke my arm. I'm back on the board with a bit more caution than before.</p>
+						<p className="overlay-text">Name the game and I'm in! Just don't ask me to play poker, because you will regret it.</p>
 					</div>
 				</div>
 			</div>

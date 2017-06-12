@@ -21,9 +21,7 @@ const NavBar = () => (
 					<li>
 						<Link to='/interests'> <span className="text">Interests</span></Link>
 					</li>
-					<li>
-						<Link to='/contact'> <span className="text">Contact</span></Link>
-					</li>
+				
 					
 				</ul>
 		</nav>

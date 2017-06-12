@@ -15,7 +15,6 @@ const Routes = () => (
 			<Route path="codingprojects" component={CodingProjects}/>
 			<Route path="workexperience" component={WorkExperience}/>
 			<Route path="interests" component={Interests}/>
-			<Route path="contact" component={Contact}/>
 		</Route>
 	</Router>
 );
