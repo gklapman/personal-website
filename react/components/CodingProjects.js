@@ -72,7 +72,7 @@ class CodingProjects extends React.Component {
 						<h4 className="project-title">TrvlPage</h4>
 						<p className="project-description">A social media web-app for recording a user’s travel locations, experiences, and reviews </p>
 						<div className="project-links">
-							<a href="https://github.com/gklapman/TravelApp" className="project-link">GitHub (Front End)</a>
+							<a href="https://github.com/gklapman/TravelApp" className="project-link">GitHub</a>
 							<a href="http://www.youtube.com/watch/RfPrqTlj6U8" className="project-link">Presentation Video</a>
 						</div>
 						<div className="project-more">
